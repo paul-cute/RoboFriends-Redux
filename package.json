@@ -6,7 +6,7 @@
   "homepage": "https://paul-cute.github.io/RoboFriends",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b master -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
